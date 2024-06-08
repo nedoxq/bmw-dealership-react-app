@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02d2d54b1f1ad39f3725e9a2b5298b2c",
+    "revision": "4ce2cbb572d50043f86468c04ea91c24",
     "url": "/bmw-dealership-react-app/index.html"
   },
   {
-    "revision": "deba8b21999c2e073ede",
+    "revision": "a17185768af846537825",
     "url": "/bmw-dealership-react-app/static/css/main.825e723f.chunk.css"
   },
   {
-    "revision": "bbf27855d29e8ae76ebf",
-    "url": "/bmw-dealership-react-app/static/js/2.04d6b3f4.chunk.js"
+    "revision": "f046fbaed111d0f7cbb1",
+    "url": "/bmw-dealership-react-app/static/js/2.d86f513f.chunk.js"
   },
   {
-    "revision": "deba8b21999c2e073ede",
-    "url": "/bmw-dealership-react-app/static/js/main.f5429aec.chunk.js"
+    "revision": "a17185768af846537825",
+    "url": "/bmw-dealership-react-app/static/js/main.d1dbef0e.chunk.js"
   },
   {
     "revision": "37a88a864ce9352cd61a",
