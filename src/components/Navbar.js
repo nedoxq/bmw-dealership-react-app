@@ -63,7 +63,7 @@ function Navbar({ toggleTheme }) {
                 className="nav-button"
                 key={page}
                 component={Link}
-                to={`/bmw-dealership-react-app/${page.toLowerCase()}`}
+                to={`/${page.toLowerCase()}`}
                 sx={{ mx: 2, color: 'white',fontWeight:400, fontSize:'16px' }}
               >
                 {page}

@@ -54,7 +54,7 @@ Are you ready to leave the ordinary behind and enter a world where every drive i
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Not Ready</Button>
-          <Button component={Link} to='/bmw-dealership-react-app/models' autoFocus>
+          <Button component={Link} to='/models' autoFocus>
             Ready
           </Button>
         </DialogActions>

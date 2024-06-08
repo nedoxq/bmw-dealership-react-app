@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Register from './pages/Register.js';
@@ -37,12 +37,12 @@ function App() {
       <Router>
         <Navbar toggleTheme={toggleTheme} />
         <Routes>
-          <Route path="/bmw-dealership-react-app/home" element={<Home />} />
-          <Route path="/bmw-dealership-react-app/register" element={<Register />} />
-          <Route path="/bmw-dealership-react-app/faq" element={<FAQ />} />
-          <Route path="/bmw-dealership-react-app/models" element={<Models />} />
-          <Route path="/bmw-dealership-react-app/about" element={<About />} />
-          <Route path="/bmw-dealership-react-app/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/models" element={<Models />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
       </Router>
