@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bmw-dealership-react-app/precache-manifest.f72703d223e9f3fcc3dbef815060c98e.js"
+  "/bmw-dealership-react-app/precache-manifest.5b45ad76e2f59c40227b51ef399f774d.js"
 );
 
 self.addEventListener('message', (event) => {
